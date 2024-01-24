@@ -1,0 +1,63 @@
+<html>
+    <head>
+        <title>Registration form</title>
+        <link rel="Stylesheet" type="text/css" href="reg.css">
+    </head>
+    <body>
+        <header>
+            <div class="title">
+                <h1>REGISTRATION</h1><hr><hr>
+            </div>
+            <form action="/register" method="post">
+                 <div class="fname">
+                    <b><label>Firstname </label></b>
+                    <input type="text" name="firstname" placeholder="First Name" size="15" maxlength="15"/> <br> <br>
+                 </div>
+                 <div class="lname">
+                    <b><label>Lastname</label></b>
+                    <input type="text" name="lastname" placeholder="Last Name" size="15" maxlength="15"/><br><br>
+                </div>
+                <div class="gen">
+                    <b><label>Gender:</label></b>
+                    <select name="gender">
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
+                        <option value="transgender">transgender</option>
+                    </select><br><br>
+                </div>
+                <div class="ph">
+                    <b><label>Phone:</label></b>
+                    <input type="text" name="ccode"   value="+91" size="2"/>
+                    <input type="text" name="phone Number"  size="10" /><br><br>
+                </div>
+                <div class="em">
+                    <b><label>Email:</label></b>
+                    <input type="email" id="email" placeholder="email" name="email"/><br><br>
+                </div>
+                <div class="date">
+                    <b><label>Date of Birth:</label></b>
+                    <input type="date" id="birthday" name="date of birth" ><br><br>
+                </div>
+                <div class="add">
+                    <b><label>Address:</label></b><br>
+                    <textarea cols="30" rows="5" value="address" name="address" placeholder="address"></textarea><br><br>
+                </div>
+                <div class="blood">
+                    <b><label>Blood Group</label></b>
+                    <input type="text" name="blood Group" size="15" placeholder="Blood group" maxlength="15"/><br><br>
+                </div>
+                <div class="pin">
+                    <b><label>Pincode:</label></b>
+                    <input type="text" name="Pincode" placeholder="pincode" size="6" /><br><br>
+                </div>
+                <div class="pass">
+                    <b><label>Password</label></b>
+                    <input type="password" id="pass" placeholder="password" name="passward"><br><br>
+                </div>
+                <div class="reg">
+                    <a href="error1.html"> <input type="button" name="log" id="log" value="REGISTER"></a>
+                </div>
+            </form>
+        </header>
+    </body>
+</html>
